@@ -21,5 +21,29 @@ namespace Topic_9_tutorial
         {
 
         }
+
+        private void btnClickThis_Click(object sender, EventArgs e)
+        {
+            imgCharacter.Visible = true;
+            lblStatus.Text = "Status: Clicked";
+            btnClickThis.Enabled = false;
+        }
+
+        private void imgCharacter_Click(object sender, EventArgs e)
+        {
+            imgCharacter.Visible = false;
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            if (imgCharacter.Visible == true)
+            {
+                Close();
+            }
+            else
+            {
+                lblStatus.Text = "Click the picture first!";
+            }
+        }
     }
 }
