@@ -39,7 +39,7 @@
             // 
             // btnClickThis
             // 
-            this.btnClickThis.Location = new System.Drawing.Point(201, 283);
+            this.btnClickThis.Location = new System.Drawing.Point(100, 173);
             this.btnClickThis.Name = "btnClickThis";
             this.btnClickThis.Size = new System.Drawing.Size(75, 23);
             this.btnClickThis.TabIndex = 0;
@@ -50,7 +50,7 @@
             // lblInstruction
             // 
             this.lblInstruction.AutoSize = true;
-            this.lblInstruction.Location = new System.Drawing.Point(128, 83);
+            this.lblInstruction.Location = new System.Drawing.Point(13, 40);
             this.lblInstruction.Name = "lblInstruction";
             this.lblInstruction.Size = new System.Drawing.Size(162, 13);
             this.lblInstruction.TabIndex = 1;
@@ -59,7 +59,7 @@
             // imgCharacter
             // 
             this.imgCharacter.Image = ((System.Drawing.Image)(resources.GetObject("imgCharacter.Image")));
-            this.imgCharacter.Location = new System.Drawing.Point(63, 217);
+            this.imgCharacter.Location = new System.Drawing.Point(44, 56);
             this.imgCharacter.Name = "imgCharacter";
             this.imgCharacter.Size = new System.Drawing.Size(100, 111);
             this.imgCharacter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -71,7 +71,7 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(333, 217);
+            this.lblStatus.Location = new System.Drawing.Point(166, 104);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(37, 13);
             this.lblStatus.TabIndex = 5;
@@ -79,7 +79,7 @@
             // 
             // btnQuit
             // 
-            this.btnQuit.Location = new System.Drawing.Point(84, 132);
+            this.btnQuit.Location = new System.Drawing.Point(12, 173);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(75, 23);
             this.btnQuit.TabIndex = 6;

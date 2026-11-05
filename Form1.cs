@@ -45,5 +45,6 @@ namespace Topic_9_tutorial
                 lblStatus.Text = "Click the picture first!";
             }
         }
+
     }
 }
